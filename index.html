@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta charset="utf-8"> 
+<title>简单交互</title> 
+<link rel="stylesheet" href="../improve.css"/>
+</head>
+
+<body >
+<h1>乱世三国</h1>
+ <div id="there-nation">
+    
+    
+	<label for="rec"><strong>姓名查询</strong></label>
+	<br>
+    <form action="mysql.php" method="post">
+    <input class="x1" type="text" name="姓名"  placeholder="输入姓名"/>
+	<button type="submit" >搜索</button>
+    </form>
+    <br>
+
+    <label for="rec"><strong>国籍查询</strong></label>
+	<br>
+    <form action="mysql.php" method="post">
+    <input  type="text" name="国籍"  placeholder="输入国籍"/>
+	<button type="submit" >搜索</button>
+    </form>
+    <br>
+
+    <label for="rec"><strong>战役查询</strong></label>
+    <br>
+    <form action="mysql2.php" method="post">  
+    <input  type="text" name="战役"  placeholder="输入战役"/>
+	<button type="submit" >搜索</button>
+    </form>
+    <br>
+
+
+</div>
+</body>
+</html>
